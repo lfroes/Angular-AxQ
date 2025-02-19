@@ -41,7 +41,7 @@ export class ImgPageComponent implements OnInit {
           ? this.localImages[
               Math.floor(Math.random() * this.localImages.length)
             ]
-          : `https://picsum.photos/${width}/${height}`,
+          : `https://:picsum.photos/${width}/${height}`,
         alt: `Random Image ${i}`,
         width,
         height,
