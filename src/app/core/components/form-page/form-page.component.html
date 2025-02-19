@@ -1,0 +1,17 @@
+<section class="container mx-auto max-w-7xl">
+  <h1 class="text-3xl my-4">Form Test page</h1>
+
+  <form [formGroup]="userForm">
+    <div formGroupName="personalInfo">
+      <div class="mb-4">
+        <label for="firstName">First Name</label>
+        <input
+          id="firstName"
+          type="text"
+          formControlName="firstName"
+          class="form-input"
+        />
+      </div>
+    </div>
+  </form>
+</section>
